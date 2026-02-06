@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:8000/api/v1/auth";
+// const BASE_URL = "http://localhost:8000/api/v1/auth";
+const BASE_URL = "https://todo-python-backend-31vx.onrender.com/api/v1/auth";
 
 export const authAPI = {
   login: (email: string, password: string) => {

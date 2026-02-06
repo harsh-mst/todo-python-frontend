@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:8000/api/v1";
+// const BASE_URL = "http://localhost:8000/api/v1";
+const BASE_URL = "https://todo-python-backend-31vx.onrender.com/api/v1";
 
 export const taskAPI = {
   createTask: async (title: string, description: string) => {

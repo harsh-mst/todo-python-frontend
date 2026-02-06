@@ -9,7 +9,3 @@ export default function ProtectedRoute({ isAuth, children }: any) {
   return children;
 }
 
-// export default function ProtectedRoute({ isAuth, children }: any) {
-//   if (!isAuth) return <Navigate to="/" replace />;
-//   return children;
-// }
